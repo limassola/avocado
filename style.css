@@ -1,0 +1,177 @@
+.page {
+    max-width: 1120px;
+    margin: 0 auto;
+    color: #000;
+}
+
+.header {
+    margin: 0 auto 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.header__logo {
+    width: 98px;
+    height: 53px;
+    object-fit: cover;
+}
+
+.nav__links {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.nav__link {
+    margin: 0 50px;
+    padding: 0;
+    text-decoration: none;
+    color: #000;
+}
+
+.about {
+    background-image: url(./images/about__background.png);
+    background-repeat: no-repeat;
+    min-height: 745px;
+    background-size: contain;
+    margin: 0 auto 60px;
+    width: 1120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-title {
+    margin: 86px 0px 38px 100px;
+    padding: 0;
+    font-size: 100px;
+    line-height: 118px;
+    max-width: 517px;
+}
+
+.about__text {
+    margin: 0 0 0 100px;
+    font-size: 33px;
+    line-height: 40px;
+    max-width: 440px;
+}
+
+.button {
+    width: 228px;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 65px;
+}
+
+.button_place_about {
+    margin: 52px 0 134px 100px;
+}
+
+.section-subtitle {
+    margin: 0;
+    padding: 0;
+    font-size: 33px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.section-title {
+    margin: 0 0 20px 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.items {
+    text-align: center;
+    margin: 0 auto 100px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cards__item {
+    max-width: 240px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card__image {
+    object-fit: cover;
+    object-position: center;
+}
+
+.card__text {
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.markets {
+    margin: 0 auto 100px;
+    display: flex;
+    gap: 0 186px;
+    justify-content: center;
+}
+
+.button_place_markets {
+    gap: 0 186px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info__items {
+    display: flex;
+    width: 928px;
+    gap: 44px 44px;
+    flex-wrap: wrap;
+}
+
+.info__item {
+    max-width: 442px;
+    border-radius: 65px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    height: 268px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.info__text {
+    margin: 30px 50px;
+}
+
+.info__item_color_green {
+    background-color: #AECC36;
+}
+
+.info__item_color_purple {
+    background-color: #8987B9;
+}
+
+.info__item_color_orange {
+    background-color: #E47F43;
+}
+
+.info__item_color_blue {
+    background-color: #54B3AD;
+}
